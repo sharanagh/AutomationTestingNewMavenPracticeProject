@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-22T12:26:43 IST" name="Suite" finished-at="2024-06-22T12:28:07 IST" duration-ms="83829">
+    <groups>
+    </groups>
+    <test started-at="2024-06-22T12:26:43 IST" name="TestNew" finished-at="2024-06-22T12:28:07 IST" duration-ms="83829">
+      <class name="com.selenium.tests.LoginTest">
+        <test-method is-config="true" signature="startWebBrowser()[pri:0, instance:com.selenium.tests.LoginTest@173ed316]" started-at="2024-06-22T12:26:49 IST" name="startWebBrowser" finished-at="2024-06-22T12:27:19 IST" duration-ms="29734" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebBrowser -->
+        <test-method signature="loginWithValidCred(java.lang.String,java.lang.String)[pri:1, instance:com.selenium.tests.LoginTest@173ed316]" started-at="2024-06-22T12:27:19 IST" name="loginWithValidCred" data-provider="supplyTestData" finished-at="2024-06-22T12:27:21 IST" duration-ms="2697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[subbutop5@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCred -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.tests.LoginTest@173ed316]" started-at="2024-06-22T12:27:22 IST" name="tearDown" finished-at="2024-06-22T12:27:23 IST" duration-ms="1442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startWebBrowser()[pri:0, instance:com.selenium.tests.LoginTest@173ed316]" started-at="2024-06-22T12:27:23 IST" name="startWebBrowser" finished-at="2024-06-22T12:27:34 IST" duration-ms="10538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebBrowser -->
+        <test-method signature="loginWithValidCred(java.lang.String,java.lang.String)[pri:1, instance:com.selenium.tests.LoginTest@173ed316]" started-at="2024-06-22T12:27:34 IST" name="loginWithValidCred" data-provider="supplyTestData" finished-at="2024-06-22T12:27:36 IST" duration-ms="2388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[subhash2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCred -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.tests.LoginTest@173ed316]" started-at="2024-06-22T12:27:36 IST" name="tearDown" finished-at="2024-06-22T12:27:37 IST" duration-ms="928" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startWebBrowser()[pri:0, instance:com.selenium.tests.LoginTest@173ed316]" started-at="2024-06-22T12:27:37 IST" name="startWebBrowser" finished-at="2024-06-22T12:27:47 IST" duration-ms="10556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebBrowser -->
+        <test-method signature="loginWithValidCred(java.lang.String,java.lang.String)[pri:1, instance:com.selenium.tests.LoginTest@173ed316]" started-at="2024-06-22T12:27:47 IST" name="loginWithValidCred" data-provider="supplyTestData" finished-at="2024-06-22T12:27:49 IST" duration-ms="1718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[subhash3@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidCred -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.tests.LoginTest@173ed316]" started-at="2024-06-22T12:27:49 IST" name="tearDown" finished-at="2024-06-22T12:27:50 IST" duration-ms="996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="startWebBrowser()[pri:0, instance:com.selenium.tests.LoginTest@173ed316]" started-at="2024-06-22T12:27:50 IST" name="startWebBrowser" finished-at="2024-06-22T12:28:03 IST" duration-ms="12552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startWebBrowser -->
+        <test-method signature="loginWithInvalidCred()[pri:2, instance:com.selenium.tests.LoginTest@173ed316]" started-at="2024-06-22T12:28:03 IST" name="loginWithInvalidCred" finished-at="2024-06-22T12:28:05 IST" duration-ms="2772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidCred -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.selenium.tests.LoginTest@173ed316]" started-at="2024-06-22T12:28:06 IST" name="tearDown" finished-at="2024-06-22T12:28:07 IST" duration-ms="1117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.selenium.tests.LoginTest -->
+    </test> <!-- TestNew -->
+  </suite> <!-- Suite -->
+</testng-results>
